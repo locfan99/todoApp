@@ -25,7 +25,7 @@ function TodoItem({ todo }) {
     } else {
       setCheck(false);
     }
-  }, []);
+  }, [todo.status]);
 
   const checkUpdate = () => {
     setCheck(!check);

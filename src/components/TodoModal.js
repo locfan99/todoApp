@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 import { MdOutlineClose } from 'react-icons/md';
 import { v4 as uuid } from 'uuid';
